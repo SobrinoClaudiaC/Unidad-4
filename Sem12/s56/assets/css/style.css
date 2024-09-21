@@ -1,0 +1,27 @@
+body{
+    max-width: 900px;
+    margin: 0 auto;
+}
+h1 {
+    color: rgb(86, 42, 127);
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px 20px;
+    grid-template-rows: auto 100px 200px;
+}
+.container>div{
+    color: rgb(102, 7, 192);
+    background-color: rgb(194, 130, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(200, 97, 248);
+}
+.g {
+    grid-column: span 6;
+}
+.f{
+    grid-column: span 2;
+}
