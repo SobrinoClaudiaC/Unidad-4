@@ -1,0 +1,39 @@
+.titulo {
+    text-align: center;
+    font-size: 60px;
+}
+
+@media (max-width: 1000px){
+    .titulo{
+        font-size: 48px;
+    }
+    p{
+        font-size: 41px;
+    }
+}
+@media (max-width: 765px){
+    .titulo{
+        font-size: 38px;
+    }
+    p{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 500px){
+    .titulo{
+        font-size: 28px;
+    }
+    p{
+        color: rgb(57, 57, 57);
+        font-size: 22px;
+    }
+}
+@media (max-width: 340px){
+    .titulo{
+        font-size: 21px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
