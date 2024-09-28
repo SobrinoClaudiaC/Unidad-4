@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+.imglogo{
+    width: 260px;
+    height: 140px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    background-color: rgba(37, 37, 37, 0.808);
+    border-radius: 20px;
+    height: 650px;
+    width: 500px;
+}
+.form-control{
+    background-color: rgb(87, 87, 87);
+    border-color: rgb(123, 123, 123);
+}
+.form-check-label{
+    color: rgb(196, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.form-check-input{
+    background-color: rgba(37, 37, 37, 0.808);
+    border-color: rgb(148, 148, 148);
+    border-width: medium;
+}
+.o{
+    color: rgb(149, 149, 149);
+    display: flex;
+    justify-content: center;
+}
+.parraf{
+    color: aliceblue;
+    text-align: center;
+}
+.pie-form{
+    background-color: rgb(29, 29, 29);
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.colorlink{
+    color: rgb(196, 199, 199);
+    font-size: 17px;
+}
+
+
