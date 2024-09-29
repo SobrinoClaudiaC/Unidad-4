@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(43, 43, 43);
 }
 .imglogo{
     width: 260px;
@@ -12,8 +12,9 @@ body{
 .fondo{
     background-color: rgba(37, 37, 37, 0.808);
     border-radius: 20px;
-    height: 650px;
-    width: 500px;
+    height: 630px;
+    width: 480px;
+    padding: 2px;
 }
 .form-control{
     background-color: rgb(87, 87, 87);
@@ -30,18 +31,30 @@ body{
     border-color: rgb(148, 148, 148);
     border-width: medium;
 }
+.btn1{
+    background-color: black;
+}
+.btn2{
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 23px;
+    background-color: rgba(126, 190, 78, 0.959);
+    color: aliceblue;
+}
 .o{
-    color: rgb(149, 149, 149);
+    color: rgb(137, 137, 137);
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
 .parraf{
     color: aliceblue;
     text-align: center;
 }
 .pie-form{
-    background-color: rgb(29, 29, 29);
-    border-radius: 20px;
+    background-color: rgb(33, 33, 33);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin-top: 15px;
     padding: 20px;
 }
@@ -51,4 +64,33 @@ body{
     font-size: 17px;
 }
 
+.div1 .fa-user{
+    position: absolute;
+    padding: 14px;
+}
+
+
+.fa-lock{
+    position: absolute;
+    padding: 14px;
+}
+.fa-eye-slash{
+    position: absolute;
+    padding: 14px;
+}
+
+.fa-google{
+    color: brown;
+}
+.fa-apple{
+    color: aliceblue;
+}
+.fa-facebook{
+    color: rgb(220, 231, 249);
+}
+
+.lado{
+    display: flex;
+    justify-content: end;
+}
 
