@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: rgb(134, 75, 230);
+  padding: 40px 0;
+}
+.img {
+  height: 230px;
+  width: 320px;
+}
+.div2 {
+  padding-top: 340px;
+  background-color: rgb(161, 186, 208);
+}
+.boton {
+  display: flex;
+  justify-content: center;
+}
+@media screen {
+}
